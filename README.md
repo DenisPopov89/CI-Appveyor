@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/vpejhcsy5avwgc7w/branch/main?svg=true)](https://ci.appveyor.com/project/Gnucheva/ci-appveyor/branch/main)
+[![Build status](https://ci.appveyor.com/api/projects/status/2ta3o9ocuwil3ndg?svg=true)](https://ci.appveyor.com/project/DenisGrigoryevichPopov/ci-appveyor)
 
 Общая схема работы выглядит следующим образом: CI должен запустить целевой сервис в фоновом режиме (который вы и тестируете) и ваши авто-тесты. Для этого мы будем на этот раз использовать возможности Bash.    
 Для того, чтобы запустить целевой сервис есть несколько вариантов, самый простой из которых - положить jar-файл прямо в ваш репозиторий. Когда AppVeyor будет выкачивать исходники авто-тестов, он выкачает и ваш сервис.    
